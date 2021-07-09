@@ -7,12 +7,14 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ListComponent } from './components/list/list.component';
 import { FormComponent } from './components/form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     ListComponent,
     FormComponent,
+    NotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],
