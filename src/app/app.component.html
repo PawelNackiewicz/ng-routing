@@ -1,5 +1,10 @@
 <div class="container">
-  <app-dashboard></app-dashboard>
-  <app-list></app-list>
-  <app-form></app-form>
+  <nav>
+    <a class="brand" routerLink="" routerLinkActive="active">App</a>
+    <ul>
+      <li><a routerLink="/list" routerLinkActive="active">List</a></li>
+      <li><a routerLink="/form" routerLinkActive="active">Form</a></li>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
 </div>
